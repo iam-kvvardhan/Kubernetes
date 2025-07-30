@@ -9,7 +9,7 @@ This repository contains my notes, diagrams, and YAML files as I learn Kubernete
 - YAML manifests (coming soon)
 
 ## 📷 Diagram
-![Kubernetes Architecture](./Diagrams/Kubernetes-Architecture.png)
+See: ![Kubernetes Architecture](./Diagrams/Kubernetes-Architecture.png)
 
 ## 🧾 Notes
 See: [notes/kubernetes-architecture.md](notes/kubernetes-architecture.md)
