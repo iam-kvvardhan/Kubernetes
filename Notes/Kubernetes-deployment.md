@@ -1,4 +1,5 @@
 **📌 Kubernetes: Pods, Deployments & ReplicaSets**
+
 **🔹 Pods**
 
 A Pod is the smallest deployable unit in Kubernetes.
