@@ -2,17 +2,17 @@
 
 **🔹 Pods**
 
-A Pod is the smallest deployable unit in Kubernetes.
+- A Pod is the smallest deployable unit in Kubernetes.
 
-It can run one or multiple containers together.
+- It can run one or multiple containers together.
 
-Containers in a Pod share:
+- Containers in a Pod share:
 
-Networking (same IP address, localhost communication).
+    - Networking (same IP address, localhost communication).
 
-Storage (shared volumes).
+    - Storage (shared volumes).
 
-Limitations of Pods:
+- Limitations of Pods:
 
 No auto-healing → if a pod fails, it won’t restart automatically.
 
