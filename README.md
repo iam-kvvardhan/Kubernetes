@@ -12,5 +12,6 @@ This repository contains my notes, diagrams, and YAML files as I learn Kubernete
 ![Kubernetes Architecture](./Diagrams/Kubernetes-Architecture.png)
 
 ## 🧾 Notes
-See: [notes/kubernetes-architecture.md](Notes/Kubernetes-architecture.md)
-See: [notes/kubernetes-firstapp.md](Notes/Kubernetes-firstapp.md)
+- See: [notes/kubernetes-architecture.md](Notes/Kubernetes-architecture.md)
+- See: [notes/kubernetes-firstapp.md](Notes/Kubernetes-firstapp.md)
+- 
