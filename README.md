@@ -9,9 +9,10 @@ This repository contains my notes, diagrams, and YAML files as I learn Kubernete
 - YAML manifests (coming soon)
 
 ## 🧾 Notes
-- See: [notes/kubernetes-architecture.md](Notes/Kubernetes-architecture.md)
-- See: [notes/kubernetes-firstapp.md](Notes/Kubernetes-firstapp.md)
-- See: [notes/kubernetes-services.md](Notes/Kubernetes-services.md)
+- Kubernetes Architecture: [notes/kubernetes-architecture.md](Notes/Kubernetes-architecture.md)
+- Kubernetes First app: [notes/kubernetes-firstapp.md](Notes/Kubernetes-firstapp.md)
+- Kubernetes Deployment: [notes/kubernetes-deployment.md](Notes/Kubernetes-deployment.md)
+- Kubernetes Services [notes/kubernetes-services.md](Notes/Kubernetes-services.md)
 - 
 
 ## 📷 Diagram
