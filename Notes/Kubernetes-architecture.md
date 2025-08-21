@@ -5,6 +5,8 @@
 - **Controller Manager**: Ensures the desired state of the cluster matches the current state.
 - **Cloud Controller Manager**: Manages cloud-specific control logic (e.g., load balancers, volumes).
 
+---
+
 ### 💪 Worker Node
 - **Kubelet**: Agent that ensures containers are running.
 - **Kube Proxy**: Handles networking and load balancing.
