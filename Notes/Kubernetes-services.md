@@ -1,5 +1,5 @@
 
-###📘 Kubernetes: Deployments & Services
+📘 Kubernetes: Deployments & Services
 
 ## 🔹 Deployments in Kubernetes
 
