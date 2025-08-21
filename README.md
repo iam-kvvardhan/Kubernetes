@@ -8,10 +8,11 @@ This repository contains my notes, diagrams, and YAML files as I learn Kubernete
 - Master and Worker components
 - YAML manifests (coming soon)
 
-## 📷 Diagram
-![Kubernetes Architecture](./Diagrams/Kubernetes-Architecture.png)
-
 ## 🧾 Notes
 - See: [notes/kubernetes-architecture.md](Notes/Kubernetes-architecture.md)
 - See: [notes/kubernetes-firstapp.md](Notes/Kubernetes-firstapp.md)
+- See: [notes/kubernetes-services.md](Notes/Kubernetes-services.md)
 - 
+
+## 📷 Diagram
+![Kubernetes Architecture](./Diagrams/Kubernetes-Architecture.png)
