@@ -14,6 +14,3 @@ This repository contains my notes, diagrams, and YAML files as I learn Kubernete
 - [Kubernetes Deployment](Notes/Kubernetes-deployment.md)
 - [Kubernetes Services](Notes/Kubernetes-services.md)
   
-
-## 📷 Diagram
-![Kubernetes Architecture](./Diagrams/Kubernetes-Architecture.png)
