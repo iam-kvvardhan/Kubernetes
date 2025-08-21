@@ -12,6 +12,8 @@
     - No auto-healing → if a pod fails, it won’t restart automatically.
     - No auto-scaling → cannot handle varying workloads automatically.
 
+  ---
+
 ### 🔹 Deployments
 
 - A Deployment is a higher-level Kubernetes resource used to manage Pods.
@@ -24,6 +26,8 @@
 - Best practice: Always use Deployments instead of creating Pods directly.
 - Deployments create and manage ReplicaSets in the background.
 
+---
+
 ### 🔹 ReplicaSets
 
 - A ReplicaSet is a Kubernetes controller that ensures a specified number of Pod replicas are running.
@@ -34,6 +38,8 @@ Responsibilities:
     - Implement auto-healing by recreating missing pods.
 A Deployment automatically creates a ReplicaSet, which in turn manages Pods.
 
+---
+
 ### 🔹 How They Work Together
 
 1. You create a Deployment (e.g., for an Nginx app).
@@ -41,6 +47,8 @@ A Deployment automatically creates a ReplicaSet, which in turn manages Pods.
 3. The ReplicaSet ensures the desired number of Pods are running.
 4. If a Pod is deleted → ReplicaSet recreates it.
 5. If you scale replicas up or down in the Deployment, → ReplicaSet adjusts Pods accordingly.
+
+---
 
 ### 🔹 Practical Example
 
@@ -53,7 +61,7 @@ Kubernetes will:
 - If one Pod crashes → ReplicaSet replaces it.
 
 - If replicas are increased to 5 → ReplicaSet creates 2 more Pods.
-
+---
 ### ✅ Summary:
 
 - Pod → Smallest unit, runs containers, but no healing/scaling.
