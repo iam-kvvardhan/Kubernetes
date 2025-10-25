@@ -60,6 +60,14 @@
 * Works only with supported **cloud providers** (e.g., AWS, GCP, Azure).
 * Example: a service accessible like a public website (`amazon.com`).
 
+| Concept                  | Real-life Analogy                                      | Role                                                 |
+| ------------------------ | ------------------------------------------------------ | ---------------------------------------------------- |
+| **Pod**                  | Employee in a department                               | Does the actual work                                 |
+| **Service**              | Department front desk                                  | Keeps the same contact info even if employees change |
+| **ClusterIP Service**    | Internal extension (used only inside the office)       |                                                      |
+| **NodePort Service**     | Public phone number (can be reached from outside)      |                                                      |
+| **LoadBalancer Service** | External receptionist (uses an external load balancer) |                                                      |
+
 ---
 
 ## ✅ Summary
