@@ -12,10 +12,10 @@ This team doesn’t do the work itself — it just decides what should happen, m
 
 | Component              | Real-Life Role                 | What It Does                                                                                                                                      |
 | ---------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **API Server**         | 🧑‍💼 The **Reception Desk**   | The main entry point — everyone (including you!) talks to Kubernetes through this. It receives orders (“Deploy this app!”) and passes them along. |
-| **Scheduler**          | 🧭 The **HR Manager**          | Decides which worker (node) should handle which job (Pod).                                                                                        |
-| **Controller Manager** | 🕹️ The **Operations Manager** | Constantly checks if everything is as planned (“Do we still have 3 Pods running?”). If not, it fixes things automatically.                        |
-| **etcd**               | 📚 The **Records Department**  | Stores all company data — apps, users, configurations, etc. It’s like the company’s brain/memory.                                                 |
+| **API Server**         | 🧑‍💼 The **Reception Desk**   | The main entry point — everyone (including you!) talks to Kubernetes through this. It receives orders (“Deploy this app!”) and passes them along. Entry point for all REST commands to control the cluster|
+| **Scheduler**          | 🧭 The **HR Manager**          | Decides which worker (node) should handle which job (Pod). Assigns work to nodes based on resources..                                                                                        |
+| **Controller Manager** | 🕹️ The **Operations Manager** | Constantly checks if everything is as planned (“Do we still have 3 Pods running?”). If not, it fixes things automatically. Ensures the desired state of the cluster matches the current state.                       |
+| **etcd**               | 📚 The **Records Department**  | Stores all company data — apps, users, configurations, etc. It’s like the company’s brain/memory. A consistent and highly available key-value store for cluster data.                                                 |
 
 
 
