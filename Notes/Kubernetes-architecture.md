@@ -1,4 +1,4 @@
-🏙️ Imagine Kubernetes as a big company (organization)
+### 🏙️ Imagine Kubernetes as a big company (organization)
 
 This company runs many projects (applications).
 To manage everything smoothly, it has two main parts:
@@ -6,7 +6,7 @@ To manage everything smoothly, it has two main parts:
 🧠 The Management Team (Control Plane)
 🏭 The Workers (Worker Nodes)
 
-### 🧠 Master Node (Control Plane):
+### 🧠 Master Node (Control Plane): The Company’s Management Team
 
 This team doesn’t do the work itself — it just decides what should happen, monitors progress, and makes sure everything is running correctly.
 
@@ -21,7 +21,16 @@ This team doesn’t do the work itself — it just decides what should happen, m
 
 ---
 
-### 💪 Worker Node
-- **Kubelet**: Agent that ensures containers are running.
-- **Kube Proxy**: Handles networking and load balancing.
-- **Container Runtime**: Software used to run containers (e.g., containerd, Docker).
+
+### 💪 Worker Node: The Employees / Departments
+
+Each worker node is like a department in the company — it actually does the work (runs your apps).
+
+Each worker node has a few key staff members:
+
+| Component             | Real-Life Role               | What It Does                                                                                            |
+| --------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Kubelet**           | 🧑‍🔧 The **Team Leader**    | Talks to management (control plane), takes orders, and makes sure containers are running as instructed. Agent that ensures containers are running.|
+| **Kube Proxy**        | 🕸️ The **Network Operator** | Manages communication — helps different Pods and services talk to each other. Handles networking and load balancing.                           |
+| **Container Runtime** | 🍳 The **Worker’s Tools**    | The actual engine that runs containers (like Docker or containerd). Software used to run containers |
+
