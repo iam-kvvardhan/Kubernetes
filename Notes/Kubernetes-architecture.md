@@ -10,6 +10,12 @@ To manage everything smoothly, it has two main parts:
 
 This team doesn’t do the work itself — it just decides what should happen, monitors progress, and makes sure everything is running correctly.
 
+| Component              | Real-Life Role                 | What It Does                                                                                                                                      |
+| ---------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **API Server**         | 🧑‍💼 The **Reception Desk**   | The main entry point — everyone (including you!) talks to Kubernetes through this. It receives orders (“Deploy this app!”) and passes them along. |
+| **Scheduler**          | 🧭 The **HR Manager**          | Decides which worker (node) should handle which job (Pod).                                                                                        |
+| **Controller Manager** | 🕹️ The **Operations Manager** | Constantly checks if everything is as planned (“Do we still have 3 Pods running?”). If not, it fixes things automatically.                        |
+| **etcd**               | 📚 The **Records Department**  | Stores all company data — apps, users, configurations, etc. It’s like the company’s brain/memory.                                                 |
 
 
 
