@@ -5,7 +5,7 @@ Passwords or API keys
 But you don’t want to hardcode that info inside every worker’s manual (Pod definition).
 That’s where ConfigMaps and Secrets come in!
 
-*** 🧩 ConfigMap = Company Notice Board 🪧 (Non-secret info)
+###🧩 ConfigMap = Company Notice Board 🪧 (Non-secret info)
 
 Every department in a company might have a notice board listing important information — like:
 
@@ -25,13 +25,6 @@ Database URLs
 
 Environment variables
 
-🧠 Example:
-
-Imagine a Pod (employee) that needs to know:
-
-Database = db.company.local
-Port = 5432
-
 
 Instead of hardcoding that inside the Pod, you put it on the notice board:
 
@@ -42,6 +35,7 @@ metadata:
 data:
   DATABASE_HOST: db.company.local
   DATABASE_PORT: "5432"
+
 
 
 Then the Pod just looks up the board whenever it needs that info.
