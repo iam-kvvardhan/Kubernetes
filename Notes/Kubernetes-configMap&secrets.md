@@ -5,7 +5,7 @@ Passwords or API keys
 But you don’t want to hardcode that info inside every worker’s manual (Pod definition).
 That’s where ConfigMaps and Secrets come in!
 
-***🧩 ConfigMap = Company Notice Board 🪧 (Non-secret info)
+*** 🧩 ConfigMap = Company Notice Board 🪧 (Non-secret info)
 
 Every department in a company might have a notice board listing important information — like:
 
