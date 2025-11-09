@@ -30,6 +30,7 @@
 - kubectl get deployments
 - kubectl get pods
 - kubectl scale deployment/filename --replicas=5
+- kubectl exec -it podname -- /bin/bash/  - To login to POD
 ---
 
 ### 🔹 ReplicaSets
