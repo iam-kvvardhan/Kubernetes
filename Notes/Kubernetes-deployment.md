@@ -25,7 +25,11 @@
     - Ensures the desired number of replicas are always running.- 
 - Best practice: Always use Deployments instead of creating Pods directly.
 - Deployments create and manage ReplicaSets in the background.
-
+### IMP COMMANDS
+- kubectl apply -f deploymentfilename.yml
+- kubectl get deployments
+- kubectl get pods
+- kubectl scale deployment/filename --replicas=5
 ---
 
 ### 🔹 ReplicaSets
