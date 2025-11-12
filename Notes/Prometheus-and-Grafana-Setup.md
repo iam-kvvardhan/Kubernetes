@@ -16,6 +16,12 @@ Monitoring is a critical part of DevOps. In this setup, we’ll deploy **Prometh
 
 ```bash
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
-helm repo update ```bash
+helm repo update
 
-sc
+
+⚙️ Step 2: Install Prometheus
+helm install prometheus prometheus-community/prometheus
+
+Once installed, verify Prometheus services:
+
+kubectl get svc
