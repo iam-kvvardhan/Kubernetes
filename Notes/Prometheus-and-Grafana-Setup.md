@@ -113,26 +113,27 @@ Click Import
 
 ✅ You’ll now see live visualizations of Kubernetes metrics such as:
 
-Node CPU and Memory usage
+1. Node CPU and Memory usage
 
-Pod-level metrics
+2. Pod-level metrics
 
-Cluster health overview
+3. Cluster health overview
 
-Resource consumption trends
+4. Resource consumption trends
 
 **⚠️ Step 10: Common Errors & Fixes**
 Error	Reason	Fix
 address already in use	Port 9090/3000 is occupied	Use a different local port (9091/3001)
 connection refused	Prometheus not running or port-forward stopped	Restart port-forward command
 Grafana “no data”	Data source misconfigured	Recheck Prometheus URL in Grafana settings
+
 🎯 Outcome
 
-Successfully deployed Prometheus and Grafana using Helm
+1. Successfully deployed Prometheus and Grafana using Helm
 
-Visualized Kubernetes metrics through Grafana Dashboard ID 3226
+2. Visualized Kubernetes metrics through Grafana Dashboard ID 3226
 
-Gained observability into nodes, pods, and cluster health
+3. Gained observability into nodes, pods, and cluster health
 
 🖼️ Visualization Example
 
@@ -141,11 +142,11 @@ Gained observability into nodes, pods, and cluster health
 
 🧠 Key Takeaways
 
-Prometheus handles metrics scraping and storage
+1. Prometheus handles metrics scraping and storage
 
-Grafana visualizes the data using dashboards
+2. Grafana visualizes the data using dashboards
 
-Helm simplifies installation and upgrades
+3. Helm simplifies installation and upgrades
 
-Always verify services using kubectl get svc before port-forwarding
+4. Always verify services using kubectl get svc before port-forwarding
 
