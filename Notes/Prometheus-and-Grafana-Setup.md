@@ -122,10 +122,12 @@ Click Import
 4. Resource consumption trends
 
 **⚠️ Step 10: Common Errors & Fixes**
-Error	Reason	Fix
-address already in use	Port 9090/3000 is occupied	Use a different local port (9091/3001)
-connection refused	Prometheus not running or port-forward stopped	Restart port-forward command
-Grafana “no data”	Data source misconfigured	Recheck Prometheus URL in Grafana settings
+| Error                    | Reason                                         | Fix                                        |
+| ------------------------ | ---------------------------------------------- | ------------------------------------------ |
+| `address already in use` | Port 9090/3000 is occupied                     | Use a different local port (9091/3001)     |
+| `connection refused`     | Prometheus not running or port-forward stopped | Restart port-forward command               |
+| Grafana “no data”        | Data source misconfigured                      | Recheck Prometheus URL in Grafana settings |
+
 
 🎯 Outcome
 
