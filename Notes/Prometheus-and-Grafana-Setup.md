@@ -16,4 +16,6 @@ Monitoring is a critical part of DevOps. In this setup, we’ll deploy **Prometh
 
 ```bash
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
-helm repo update
+helm repo update ```bash
+
+sc
