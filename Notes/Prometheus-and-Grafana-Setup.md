@@ -138,7 +138,7 @@ Grafana “no data”	Data source misconfigured	Recheck Prometheus URL in Grafan
 🖼️ Visualization Example
 
 (Attach your screenshot here)
-/images/prometheus-grafana-dashboard.png
+/Diagrams/prometheus-grafana-dashboard.png
 
 🧠 Key Takeaways
 
